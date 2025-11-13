@@ -38,6 +38,7 @@ jobs:
         git submodule add https://github.com/google/googletest deps/googletest
         cd deps
         cd googletest
+        git checkout v1.10.x
         mkdir build
         cd build
         cmake ..
